@@ -2,7 +2,7 @@
   "name": "dbblog-manage-frontend",
   "version": "1.0.0",
   "description": "一个前后端分离的博客系统，这是后台管理的前端页面，基于Vue",
-  "author": "llldddbbb <571002217@qq.com>",
+  "author": "keaiv <kea_iv@qq.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -18,8 +18,9 @@
     "echarts": "4.1.0",
     "element-ui": "2.3.2",
     "lodash": "4.17.13",
+    "marked": "^0.6.1",
     "mavon-editor": "^2.3.1",
-    "node-sass": "4.13.0",
+    "node-sass": "^4.14.1",
     "sass-loader": "6.0.6",
     "svg-sprite-loader": "^3.7.3",
     "vue": "^2.5.2",
@@ -27,8 +28,7 @@
     "vue-count-to": "1.0.13",
     "vue-quill-editor": "^3.0.6",
     "vue-router": "^3.0.1",
-    "vuex": "3.0.1",
-    "marked": "^0.6.1"
+    "vuex": "3.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -46,7 +46,7 @@
     "babel-preset-stage-2": "^6.22.0",
     "babel-register": "^6.22.0",
     "chalk": "^2.0.1",
-    "chromedriver": "^2.27.2",
+    "chromedriver": "^2.46.0",
     "copy-webpack-plugin": "^4.0.1",
     "cross-spawn": "^5.0.1",
     "css-loader": "^0.28.0",
@@ -90,8 +90,8 @@
     "webpack-merge": "^4.1.0"
   },
   "engines": {
-    "node": ">= 6.0.0",
-    "npm": ">= 3.0.0"
+    "node": ">= 8.17.0",
+    "npm": ">= 6.13.4"
   },
   "browserslist": [
     "> 1%",
