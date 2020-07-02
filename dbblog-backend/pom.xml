@@ -41,6 +41,7 @@
         <springboot.version>2.1.2.RELEASE</springboot.version>
         <lombok.version>1.18.4</lombok.version>
         <mysql.version>8.0.11</mysql.version>
+        <sharding.jdbc.version>2.0.3</sharding.jdbc.version>
     </properties>
 
     <dependencyManagement>
@@ -51,6 +52,12 @@
                 <artifactId>lombok</artifactId>
                 <optional>true</optional>
                 <version>${lombok.version}</version>
+            </dependency>
+            <!-- sharding jdbc -->
+            <dependency>
+                <groupId>io.shardingjdbc</groupId>
+                <artifactId>sharding-jdbc-core</artifactId>
+                <version>${sharding.jdbc.version}</version>
             </dependency>
             <dependency>
                 <groupId>io.springfox</groupId>
